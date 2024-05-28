@@ -1,32 +1,12 @@
 {
-  "name": "crisp-api",
+  "name": "@bisondesk/crisp-api",
   "description": "Crisp API wrapper for Node - official, maintained by Crisp",
-  "version": "8.3.2",
-  "homepage": "https://github.com/crisp-im/node-crisp-api",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Baptiste Jamin",
     "email": "baptiste@crisp.chat",
     "url": "https://jamin.me/"
-  },
-  "contributors": [
-    {
-      "name": "Valerian Saliou",
-      "email": "valerian@valeriansaliou.name",
-      "url": "https://valeriansaliou.name/"
-    },
-    {
-      "name": "Eliott Vincent",
-      "email": "eliott@crisp.chat",
-      "url": "https://www.eliottvincent.com/"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/crisp-im/node-crisp-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/crisp-im/node-crisp-api/issues"
   },
   "licenses": [
     {
@@ -41,7 +21,7 @@
   },
   "scripts": {
     "test": "check-build",
-    "generate:types": "rm -rf ./types/* && tsc"
+    "build": "rm -rf ./types/* && tsc"
   },
   "devDependencies": {
     "check-build": "2.8.2",
